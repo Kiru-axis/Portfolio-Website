@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content">
+          <div class="logo">
+            <a href="index.html">K</a>
+          </div>
+          <div class="humburger-btn outer-shadow hover-in-shadow">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- navigation menu-->
+    <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+        <ul>
+          <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+          <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
+          <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
+          <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
+          <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+        </ul>
+      </div>
+      <!-- copyright -->
+    </nav>
+    <!--------------------------- nav fade out -->
+    <div class="fade-out-effect"></div>
+
+    <!-- end navigation menu-->
+    <!-- effects -->
+
+    <!-- effects -->
+    <!-- ----------------------------------------------home -->
+    <section class="home-section section active" id="home">
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="home-text">
+            <p>Hello</p>
+            <h2>I'm Peter Kiru</h2>
+            <h1>Fullstack web developer</h1>
+            <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow"
+              >More About Me</a
+            >
+          </div>
+          <div class="home-img">
+            <div class="img-box inner-shadow">
+              <img
+                src="./images/coder.jpg"
+                class="img-responsive img-fluid outer-shadow"
+                height="400"
+                width="400"
+                alt="Peter Kiru"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end home -->
+
+    <!-- ----------------------------------------------------about section -->
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="main info">About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box inner-shadow">
+              <img
+                src="./images/coder.jpg"
+                class="img-responsive img-fluid outer-shadow"
+                height="400"
+                width="400"
+                alt="Peter Kiru"
+              />
+            </div>
+            <!-- socials -->
+            <div class="social-links">
+              <a href="" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-imdb"></i
+              ></a>
+              <a href="" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+            <!-- end socials -->
+          </div>
+          <div class="about-info">
+            <p>
+              <span
+                >Hi! My name is Peter Kiru. I am a fullstack web developer</span
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.liquid
+              blanditiis illum nobis autem doloribus cumque dolorem facilis
+              expedita odit vero,
+            </p>
+            <p>
+              A ipsum exercitationem ut ipsam quos itaque veritatis! Sit, id
+              maxime.
+            </p>
+            <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow"
+              >Download CV</a
+            >
+            <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire me</a>
+          </div>
+        </div>
+        <!-- about tabs and stuff -->
+        <div class="row">
+          <div class="about-tabs">
+            <span
+              class="tab-item active outer-shadow hover-in-shadow"
+              data-target=".skills"
+              >skills</span
+            >
+            <span class="tab-item" data-target=".experience">education</span>
+          </div>
+        </div>
+        <!-- end tabs -->
+        <!-- skills set -->
+        <div class="row">
+          <div class="skills tab-content active">
+            <div class="row">
+              <!-- specific skill -->
+              <div class="skill-item">
+                <p>Html</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(80% - 14px)">
+                    <span>80%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end specific skill -->
+              <!-- specific skill -->
+              <div class="skill-item">
+                <p>JavaScript</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(60% - 14px)">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end specific skill -->
+              <!-- specific skill -->
+              <div class="skill-item">
+                <p>Css</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(60% - 14px)">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end specific skill -->
+              <!-- specific skill -->
+              <div class="skill-item">
+                <p>Django</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(80% - 14px)">
+                    <span>80%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end specific skill -->
+              <!-- specific skill -->
+              <div class="skill-item">
+                <p>Flask</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(70% - 14px)">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end specific skill -->
+              <!-- specific skill -->
+              <div class="skill-item">
+                <p>Bootstrap</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(70% - 14px)">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end specific skill -->
+            </div>
+          </div>
+        </div>
+        <!-- end skills set -->
+        <!-- experiences -->
+        <div class="row">
+          <div class="experience tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- time -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>February, 2021 - August, 2021 </span>
+                      <h4>Moringa School</h4>
+                      <p>
+                        Attended a rigorous training bootcamp where i earned both prep and core certificates
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end time -->
+                  <!-- time -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2016 - 2013</span>
+                      <h4>Kamiti secondary school</h4>
+                      <p>
+                        I was a member of the worldlife club and school football team
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end time -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- experiences end -->
+        
+      </div>
+    </section>
+
+    <!-- end about section -->
+
+    <!-- -------------------------------------------services section start -->
+    <section class="service-section section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Services">What i do</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- my services items -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Response Design</h3>
+                <p>
+                  As a heavy user of Bootstrap am good in responsive web development
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end my services items -->
+          <!-- my services items -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web design</h3>
+                <p>
+                  As a fullstack developer,i can do both front and backend development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end my services items -->
+         
+          <!-- my services items -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+                <h3>Clean code</h3>
+                <p>
+                  Am a heavy advocate of the DRY (Don't Repeat Yourself) method. The method is not only faster to code, but also easier to debugg.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end my services items -->
+          <!-- my services items -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Great Support</h3>
+                <p>
+                  Team work for the growth of an individual as a collective.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- end my services items -->
+          <!-- my services items -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class='fas fa-project-diagram'></i>
+                <h3>Swift Rest APIs</h3>
+                <p>
+                  My skill from django rest framework.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end my services items -->
+        </div>
+      </div>
+    </section>
+    <!-- end services section  -->
+
+
+
+
+    <!---------------------------------------portfolio section -->
+<section class="portfolio-section section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2 data-heading="portfolio">Latest works</h2>
+      </div>
+    </div>
+
+    <!-- portfolio filter start -->
+    <div class="row">
+      <div class="portfolio-filter">
+        <span class="filter-item outer-shadow active" data-target="all">all</span>
+        <span class="filter-item" data-target="javascript">javascript</span>
+        <span class="filter-item" data-target="angular">angular</span>
+        <span class="filter-item" data-target="flask">flask</span>
+        <span class="filter-item" data-target="django">django</span>
+      </div>
+    </div>
+    <!-- portfolio filter end -->
+
+
+    <!-- portfolio items start -->
+    <div class="row portfolio-items">
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="javascript">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/catvh.jpeg" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio">
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/Portfolio-landing-page/" >view</a> </span>
+          </div>
+          <p class="portfolio-item-title">personal portfolio</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+
+      <!-- -------------------------------------item 2------------ -->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="javascript">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/cool.png" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/Pizza-heaven/" target="_blank">view</a> </span>
+          </div>
+          <p class="portfolio-item-title">Pizza palace</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+
+      <!-- ----- ----------------------------item 3 ----------------------->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="django">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/dove.jpeg" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://awards-app-clone.herokuapp.com/">view</a> </span>
+          </div>
+          <p class="portfolio-item-title">Awwards clone</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+      <!-- ----- ----------------------------item 4 ----------------------->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="angular">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/heart.png" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/User-Quotes/">view</a> </span>
+          </div>
+          <p class="portfolio-item-title">quotes</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+      <!-- ----- ----------------------------item 5 ----------------------->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="flask">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/nice.jpeg" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/Portfolio-landing-page/">view</a> </span>
+          </div>
+          <p class="portfolio-item-title">flask blog</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+      <!-- ----- ----------------------------item 6 ----------------------->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="django">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/none.jpeg" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://ig-clone-application.herokuapp.com/" target="_blank">view</a> </span>
+          </div>
+          <p class="portfolio-item-title">instagram clone</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+      <!-- ----- ----------------------------item 7 ----------------------->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="javascript">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/unknown.png" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/DELANI--STUDIO/">view</a></span>
+          </div>
+          <p class="portfolio-item-title">Delani studios</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+             
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+      <!-- portfolio item start -->
+       <!-- ----- ----------------------------item 8 ----------------------->
+      <div class="portfolio-item" data-category="angular">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/unknown.png" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/Github_Search/">view</a></span>
+          </div>
+          <p class="portfolio-item-title">GitHub Search</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+       <!-- ----- ----------------------------item 9 ----------------------->
+       <div class="portfolio-item" data-category="django">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/unknown.png" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://picture-world-django.herokuapp.com/">view</a></span>
+          </div>
+          <p class="portfolio-item-title">Picture WOrld</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+             
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+      <!-- ----- ----------------------------item 10---------------------->
+      <!-- portfolio item start -->
+      <div class="portfolio-item" data-category="flask">
+        <div class="portfolio-item-inner outer-shadow">
+          <div class="portfolio-item-img">
+            <img
+                src="./images/mermaid.png" class="img-responsive img-fluid outer-shadow" height="300" width="300" alt="portfolio"
+
+                />
+              <!-- VIEW project -->
+              <span class="view-project"><a href="https://kiru-axis.github.io/Portfolio-landing-page/" target="_blank">view</a> </span>
+          </div>
+          <p class="portfolio-item-title">i connect</p>
+          <!-- portfolio item details -->
+          <div class="portfolio-item-details">
+            <div class="row">
+              <div class="description">
+                  <h3>project Brief:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Corporis ducimus placeat aut neque enim quia
+                  </p>
+              </div>
+             
+            </div>
+          </div>
+          <!-- portfolio item details end -->
+        </div>
+      </div>
+      <!-- portfolio item end -->
+    </div>
+    <!-- portfolio items end -->
+ </div>
+</section>
+
+    <!-- --------------------------------------contact section -->
+<section class="contact-section section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2 data-heading="contact">Get in touch</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- ----------phone -->
+      <!-- contact item start -->
+      <div class="contact-item">
+        <div class="contact-item-inner outer-shadow">
+          <i class="fas fa-phone"></i>
+          <span>Phone</span>
+          <p>+254 727976473</p>
+        </div>
+      </div>
+      <!-- contact item end -->
+
+      <!-- ---------------email -->
+
+      <!-- contact item start -->
+      <div class="contact-item">
+        <div class="contact-item-inner outer-shadow">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+          <p><a href = "mailto:peterkiru560@gmail.com">peterkiru560@gmail.com</a></p>
+        </div>
+      </div>
+      <!-- contact item end -->
+
+      <!-------------location -->
+       <!-- contact item start -->
+       <div class="contact-item">
+        <div class="contact-item-inner outer-shadow">
+          <i class='fas fa-map-marker-alt'></i>
+          <span>Address</span>
+          <p>Nairobi, Kenya</p>
+        </div>
+      </div>
+      <!-- contact item end -->
+      
+    </div>
+    <div class="row">
+      <div class="contact-form">
+          <form action="">
+            <div class="row">
+              <div class="w-50">
+                <!-- name -->
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input class="input-control" type="text" placeholder="Name" required>
+                </div>
+                <!--email  -->
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input class="input-control" type="text" placeholder="Email" required>
+                </div>
+
+                <!-- subject -->
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input class="input-control" type="text" placeholder="Subject" required>
+                </div>
+              </div>
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <textarea name="" class="input-control" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="submit-btn">
+                <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+              </div>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- end contact section-->
+  
+  
+  </body>
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <script src="js/main.js"></script>
+</html>
